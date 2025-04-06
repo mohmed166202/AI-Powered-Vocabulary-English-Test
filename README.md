@@ -36,10 +36,28 @@ jupyter notebook "AI vocab English test .ipynb"
    - Generate multiple-choice questions.
    - Interact with the test interface.
 
-## File Structure
+---
 
-- `AI vocab English test .ipynb` – Main notebook for vocabulary quiz generation.
-- `vocab_data.csv` (not included) – Expected vocabulary dataset with columns like `word`, `definition`, `CEFR_level`, etc.
+## 📁 Project Structure
+
+```
+AI-Powered Vocabulary English Test/
+│
+├── AI vocab English test.ipynb       # Main Jupyter Notebook
+├── AI-Powered Vocabulary English Test.docx  # Project overview (Word format)
+├── converted_audio/                  # Folder (or file) for processed audio
+├── ENGLISH_CERF_WORDS.xlsx           # Excel file containing CEFR-aligned vocabulary
+├── labeled_words_dictionary.json     # JSON dictionary with labeled words
+├── words/                            # May contain raw or processed word files
+├── words_dictionary.json             # Main JSON dictionary used for quizzes
+├── words_dictionary/                 # Folder with additional word resources
+├── audio/                            # Optional folder for audio pronunciation or prompts
+├── WhatsApp Audio ... .wapt          # Sample or test audio file
+├── Words-CEFR-Dataset (GitHub links) # Reference to original CEFR datasets
+```
+
+---
+
 
 ## Notes
 
